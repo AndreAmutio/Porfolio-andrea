@@ -3,6 +3,8 @@ import Overlay from "../components/hero/Overlay";
 import Fog from "../components/hero/Fog";
 import Particles from "../components/hero/Particles";
 import HeroContent from "../components/hero/HeroContent";
+import ScrollIndicator from "../components/ScrollIndicator";
+
 
 function Hero() {
   return (
@@ -12,6 +14,7 @@ function Hero() {
     <Fog />
     <Particles />
     <HeroContent />
+    <ScrollIndicator />
   </section>
   );
 }
