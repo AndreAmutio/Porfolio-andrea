@@ -1,9 +1,5 @@
 function Overlay() {
-  return (
-    <div>
-      Overlay
-    </div>
-  );
+  return null;
 }
 
 export default Overlay;

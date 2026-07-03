@@ -1,8 +1,13 @@
+import city from "../../assets/images/hero/city.webp";
+
 function HeroBackground() {
   return (
-    <div>
-      Hero Background
-    </div>
+    <div
+      className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
+      style={{
+        backgroundImage: `url(${city})`,
+      }}
+    />
   );
 }
 
